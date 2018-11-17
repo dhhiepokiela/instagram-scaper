@@ -1,0 +1,593 @@
+Started GET "/" for 127.0.0.1 at 2018-11-17 14:38:34 +0700
+  
+NoMethodError (undefined method `root_to' for #<ActionDispatch::Routing::Mapper:0x00007fab97c5aae0>
+Did you mean?  root):
+  
+config/routes.rb:3:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2018-11-17 14:38:40 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1023ms (Views: 1010.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-17 14:39:55 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?phones=&submit=Submit" for 127.0.0.1 at 2018-11-17 14:39:56 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"phones"=>"", "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?phones=&submit=Submit" for 127.0.0.1 at 2018-11-17 14:39:57 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"phones"=>"", "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?phones=&submit=Submit" for 127.0.0.1 at 2018-11-17 14:39:57 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"phones"=>"", "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?phones=c&submit=Submit" for 127.0.0.1 at 2018-11-17 14:40:00 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"phones"=>"c", "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?phones=&submit=Submit" for 127.0.0.1 at 2018-11-17 14:40:02 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"phones"=>"", "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?phones=&submit=Submit" for 127.0.0.1 at 2018-11-17 14:43:22 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"phones"=>"", "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?phones=&submit=Submit" for 127.0.0.1 at 2018-11-17 14:44:02 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"phones"=>"", "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?phones=&submit=Submit" for 127.0.0.1 at 2018-11-17 14:44:28 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"phones"=>"", "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 38ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?phones=&submit=Submit" for 127.0.0.1 at 2018-11-17 14:45:18 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"phones"=>"", "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?phones=&submit=Submit" for 127.0.0.1 at 2018-11-17 14:48:49 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"phones"=>"", "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?phones=&submit=Submit" for 127.0.0.1 at 2018-11-17 14:49:07 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"phones"=>"", "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 35ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?phones=&submit=Submit" for 127.0.0.1 at 2018-11-17 14:49:16 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"phones"=>"", "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 43ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?phones=&submit=Submit" for 127.0.0.1 at 2018-11-17 14:49:41 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"phones"=>"", "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 32ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?phones=&submit=Submit" for 127.0.0.1 at 2018-11-17 14:50:00 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"phones"=>"", "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 32ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-21 23:29:50 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 197ms (Views: 184.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=c&submit=Submit" for 127.0.0.1 at 2018-11-21 23:29:53 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"c"}, "submit"=>"Submit"}
+Completed 500 Internal Server Error in 8288ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/zalo.rb:125:in `new'
+lib/zalo.rb:125:in `send_email_qr_code'
+lib/zalo.rb:111:in `capture_qr_code_and_send_email'
+lib/zalo.rb:83:in `login'
+app/controllers/home_controller.rb:12:in `index'
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=c&submit=Submit" for 127.0.0.1 at 2018-11-21 23:32:07 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"c"}, "submit"=>"Submit"}
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=c&submit=Submit" for 127.0.0.1 at 2018-11-21 23:35:07 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"c"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 201ms (Views: 188.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=c&submit=Submit" for 127.0.0.1 at 2018-11-21 23:35:53 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"c"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 33ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=c&submit=Submit" for 127.0.0.1 at 2018-11-21 23:36:04 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"c"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 65ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=c&submit=Submit" for 127.0.0.1 at 2018-11-21 23:37:26 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"c"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 200ms (Views: 188.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=c&submit=Submit" for 127.0.0.1 at 2018-11-21 23:37:47 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"c"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 323ms (Views: 301.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=c&submit=Submit" for 127.0.0.1 at 2018-11-21 23:38:53 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"c"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 211ms (Views: 198.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=c&submit=Submit" for 127.0.0.1 at 2018-11-21 23:39:08 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"c"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 45ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=c&submit=Submit" for 127.0.0.1 at 2018-11-21 23:40:19 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"c"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 209ms (Views: 187.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=c&submit=Submit" for 127.0.0.1 at 2018-11-21 23:41:31 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"c"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 35ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=c&submit=Submit" for 127.0.0.1 at 2018-11-21 23:42:25 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"c"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 235ms (Views: 205.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=c&submit=Submit" for 127.0.0.1 at 2018-11-21 23:42:44 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"c"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 168138ms (Views: 285.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=c&submit=Submit" for 127.0.0.1 at 2018-11-21 23:45:48 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"c"}, "submit"=>"Submit"}
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828&submit=Submit" for 127.0.0.1 at 2018-11-21 23:46:11 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828"}, "submit"=>"Submit"}
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828&submit=Submit" for 127.0.0.1 at 2018-11-21 23:46:20 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828"}, "submit"=>"Submit"}
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828&submit=Submit" for 127.0.0.1 at 2018-11-21 23:46:24 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828"}, "submit"=>"Submit"}
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828&submit=Submit" for 127.0.0.1 at 2018-11-21 23:46:24 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828"}, "submit"=>"Submit"}
+Completed 500 Internal Server Error in 332ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::EBADF (Bad file descriptor):
+  
+lib/zalo.rb:120:in `capture_qr_code_and_send_email'
+lib/zalo.rb:93:in `login'
+app/controllers/home_controller.rb:12:in `index'
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 479ms (Views: 317.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828&submit=Submit" for 127.0.0.1 at 2018-11-21 23:46:25 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828"}, "submit"=>"Submit"}
+Completed 500 Internal Server Error in 73ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::EBADF (Bad file descriptor):
+  
+lib/zalo.rb:83:in `login'
+app/controllers/home_controller.rb:12:in `index'
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828&submit=Submit" for 127.0.0.1 at 2018-11-21 23:46:26 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 58ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=c&submit=Submit" for 127.0.0.1 at 2018-11-21 23:46:29 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"c"}, "submit"=>"Submit"}
+Completed 500 Internal Server Error in 331ms (ActiveRecord: 0.0ms)
+
+
+  
+Net::HTTPBadResponse (wrong status line: "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\"}HTTP/1.1 200 OK"):
+  
+lib/zalo.rb:120:in `capture_qr_code_and_send_email'
+lib/zalo.rb:93:in `login'
+app/controllers/home_controller.rb:12:in `index'
+Started GET "/" for 127.0.0.1 at 2018-11-21 23:46:35 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 36ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021&submit=Submit" for 127.0.0.1 at 2018-11-21 23:47:53 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021"}, "submit"=>"Submit"}
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021&submit=Submit" for 127.0.0.1 at 2018-11-21 23:50:41 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 66279ms (Views: 225.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=0868608981+%2C+0763813801%2C+0969961537&submit=Submit" for 127.0.0.1 at 2018-11-21 23:51:58 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"0868608981 , 0763813801, 0969961537"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5688ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-24 17:08:11 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 244ms (Views: 231.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=ie&submit=Submit" for 127.0.0.1 at 2018-11-24 17:08:17 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"ie"}, "submit"=>"Submit"}
+Started GET "/" for 127.0.0.1 at 2018-11-24 17:59:02 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 231ms (Views: 217.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021&submit=Submit" for 127.0.0.1 at 2018-11-24 17:59:07 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 54175ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:00:13 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 4123ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:03:23 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 278ms (Views: 262.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:03:26 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 30ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:03:27 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 29ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:03:27 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 31ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:03:39 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+lib/zalo.rb:166:in `load'
+lib/zalo.rb:37:in `get_owner_info'
+app/controllers/home_controller.rb:14:in `block in index'
+app/controllers/home_controller.rb:12:in `each'
+app/controllers/home_controller.rb:12:in `index'
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:04:45 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 70106ms (Views: 232.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:00 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 30ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:01 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 34ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:01 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 51ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:02 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:02 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 31ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:02 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 49ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:03 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 49ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:03 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 71ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:03 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 46ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:04 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 53ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:05 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 34ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:05 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 39ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:05 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 33ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:06 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 30ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:06 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 34ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:07 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 31ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:07 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 37ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021%2C+0933191170&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:18 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021, 0933191170"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2105ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=01285286828%2C903131021%2C+0905131021%2C+0933191170&submit=Submit" for 127.0.0.1 at 2018-11-24 18:06:24 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"01285286828,903131021, 0905131021, 0933191170"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 30ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-12-06 13:27:18 +0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 239ms (Views: 218.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=&submit=Submit" for 127.0.0.1 at 2018-12-06 13:27:23 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>""}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?utf8=%E2%9C%93&search%5Bphones%5D=xx&submit=Submit" for 127.0.0.1 at 2018-12-06 13:27:31 +0700
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>{"phones"=>"xx"}, "submit"=>"Submit"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 3133231ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
